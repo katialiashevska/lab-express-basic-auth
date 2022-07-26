@@ -1,0 +1,9 @@
+{{#if userInSession}}
+    <h2>Main page - protected by authentication</h2>
+    <img src="https://media.giphy.com/media/4Zo41lhzKt6iZ8xff9/giphy.gif?cid=ecf05e47g62sggh7n1g0xud0z6kp0t463ve814b954w0l8ml&rid=giphy.gif&ct=g" />
+    <br>
+    <br>
+    <a href="/">Back to homepage</a>
+ {{else}}
+    <p>Still no logged in user, sorry!</p>
+{{/if}}
